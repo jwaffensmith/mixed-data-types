@@ -221,7 +221,7 @@ Expected result:
 
 # Hungry For Quite a bit more?
 
-Complete this [advanced object lab using weather data](https://git.generalassemb.ly/sf-sei-3/weather-object-lab), committing as you go.
+Complete this [advanced object lab using weather data](https://git.generalassemb.ly/wc-sei-322/weather-object-lab), committing as you go.
 
 ## Hungry for CSS stuff?
 
