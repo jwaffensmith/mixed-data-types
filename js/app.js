@@ -186,4 +186,16 @@ let oddBonds = bondFilms.filter(function (element) {
 
   /* === Question 7 === */
 
+  const bondFilmsGross = bondFilms.map(function (element) {
+    return element.gross.replace(/[$,]+/g,"");
+  });
+ 
+const newGrossArray = bondFilmsGross.map(function (element) { 
+  return parseInt(element, 10); 
+});
 
+let totalGross = 0
+
+for (i=0; i< newGrossArray.length; i++){
+  totalGross += newGrossArray[i];
+};
