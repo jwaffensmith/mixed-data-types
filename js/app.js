@@ -167,4 +167,23 @@ console.log(bondTitles);
 
  /* === Question 6 === */
 
+/* returns even as undefined
+let oddBonds = bondFilms.map(function (element) {
+    if (element.year % 2 !== 0) {
+    return element.year;
+    }
+});
+console.log(oddBonds);
+*/
+
+// returns an array of objects for each Bond film released in an odd-numbered year. 
+
+let oddBonds = bondFilms.filter(function (element) {
+    if (element.year % 2 !== 0) {
+    return element.year;
+    }
+});
+
   /* === Question 7 === */
+
+
