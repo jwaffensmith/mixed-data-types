@@ -54,6 +54,55 @@ const jenna = {
     hobby: "cycling",
     location: "Seattle",
     favoriteDatatype: "objects",
-}
+};
 
 const jennaHobby = jenna.hobby;
+
+/* === Question 3 Crazy Object! === */
+
+const crazyObject = {
+    taco: [
+      {
+        meat: 'steak',
+        cheese: ['panela', 'queso', 'chihuahua']
+      },
+      {
+        meat: 'chicken',
+        salsa: ["pico", "hot", "hotter", "really hot", "really really hot", "omg my mouth is burning"]
+      },
+    ],
+    larry: {
+      nicknames: ["LD", "Chicken Teriyaki Boyyyyyy"],
+      quotes: ["Pretty pretty prettayyyyy good", "Is that a parkinson's thing?", "women love a self confident bald man", "I'm a walking talking enigma"],
+      characters: [
+        {
+          name: "Jeff",
+          occupation: "manager"
+        },
+        {
+          name: "funkhauser",
+          occupation: "tv dude"
+        },
+        {
+          name: "susie",
+          occupation: "jeffs wife",
+          favoriteHobby: "Swearing at Larry and Jeff"
+        },
+      ]
+    }
+  };
+
+let hottestSalsa = crazyObject.taco[1].salsa[5];
+console.log(hottestSalsa);
+
+let oneLarryQuote = crazyObject.larry.quotes[0];
+console.log(oneLarryQuote);
+
+let susanFavoriteHobby = crazyObject.larry.characters[2].favoriteHobby;
+console.log(susanFavoriteHobby);
+
+let oneLarryNickname = crazyObject.larry.nicknames[1];
+console.log(oneLarryNickname);
+
+let funkhauserObject = crazyObject.larry.characters[1];
+console.log(funkhauserObject);
