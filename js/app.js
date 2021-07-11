@@ -10,13 +10,13 @@ const lightSwitch = {
 
 - I would use an object with the key being the username and the value being the email address as a string.
 Example: 
-const userEmail = {
+const userEmails = {
     username: "email@address.com"
 };
 
 - I would use an array with strings.
 Example:
-const spaceship = ["hull", "laser blasters" , "tractor beam", "warp drive"];
+const spaceshipParts = ["hull", "laser blasters" , "tractor beam", "warp drive"];
 
 - I would use an array with strings.
 Example: 
@@ -42,3 +42,18 @@ const classInfo = {
 };
 
 */
+
+/* === Question 2 Take it Easy === */
+
+const rainbowColors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
+
+const rainbowBlue = rainbowColors[4];
+
+const jenna = {
+    favoriteFood: "Shizen's vegan sushi",
+    hobby: "cycling",
+    location: "Seattle",
+    favoriteDatatype: "objects",
+}
+
+const jennaHobby = jenna.hobby;
